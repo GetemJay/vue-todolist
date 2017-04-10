@@ -1,27 +1,19 @@
-# todo-list
+#vue-cli+webpack的小例子#
 
-> A Vue.js project
+根据官网的例子写的，还算是比较完整
 
-## Build Setup
+## 安装步骤 ##
 
-``` bash
-# install dependencies
-npm install
+	git clone https://github.com/GetemJay/vue-todolist.git		// 把模板下载到本地
+	cd todo-list											  // 进入模板目录
+	npm install													// 安装项目依赖，等待安装完成之后
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 本地开发 ##
 
-# build for production with minification
-npm run build
+	// 开启服务器，浏览器访问 http://localhost:8080
+	npm run dev
 
-# build for production and view the bundle analyzer report
-npm run build --report
+## 构建生产 ##
 
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+	// 执行构建命令，生成的dist文件夹放在服务器下即可访问
+	npm run build
