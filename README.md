@@ -5,7 +5,7 @@
 ## 安装步骤 ##
 
 	git clone https://github.com/GetemJay/vue-todolist.git		// 把模板下载到本地
-	cd todo-list											  // 进入模板目录
+	cd vue-todolist											  // 进入模板目录
 	npm install													// 安装项目依赖，等待安装完成之后
 
 ## 本地开发 ##
