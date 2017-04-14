@@ -33,7 +33,7 @@
 </template>
 
 <script>
-let todos = JSON.parse(localStorage.getItem('list'));
+let todos = JSON.parse(localStorage.getItem('list') || '[]');
 export default {
   data () {
     return {
