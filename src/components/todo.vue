@@ -33,6 +33,7 @@
 </template>
 
 <script>
+  //第一次使用时，localStorage没有数据，所以需要给一个默认的[]，否则会报错
 let todos = JSON.parse(localStorage.getItem('list') || '[]');
 export default {
   data () {
